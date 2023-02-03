@@ -156,12 +156,12 @@ header .navbar ul li a:hover{
 }
 
 .home h3{
-    font-size: 2.5rem;
+    font-size: 2rem;
     color:#fff;
 }
 
 .home h1{
-    font-size:5rem;
+    font-size:3rem;
     color:#fff;
 }
 
@@ -170,7 +170,7 @@ header .navbar ul li a:hover{
 }
 
 .home p{
-    font-size:2rem;
+    font: size 2rem;
     color:#eee;
     padding: 1rem 0;
 }
@@ -180,7 +180,7 @@ header .navbar ul li a:hover{
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
-    padding:1rem 0;
+    /* padding:1rem 0; */
 }
 
 .about .row .info{
@@ -328,13 +328,14 @@ header .navbar ul li a:hover{
     margin:1rem 0;
     background:#3333;
     color:#fff;
-    text-transform: none;
+    text-transform:lowercase;
     font-size: 1.7rem;
     width:100%;
 }
 
 .contact .row form .box::placeholder{
-    text-transform: capitalize;
+      text-transform: capitalize; 
+     /* text-transform: lowercase; */
 }
 
 .contact .row form .message{
@@ -343,7 +344,8 @@ header .navbar ul li a:hover{
 }
 
 .contact .row .content .title{
-    text-transform: uppercase;
+    /* text-transform: uppercase; */
+    text-transform: lowercase;
     color:#fff;
     font-size: 3rem;
     padding-bottom: 2rem;
